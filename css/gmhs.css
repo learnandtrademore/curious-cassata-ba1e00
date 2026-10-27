@@ -1,0 +1,1111 @@
+@charset "utf-8"; /* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+    background: url(../images/WoodPanelling_TH.jpg) repeat left top;
+    text-align: justify;
+}
+
+.main-container {
+    width: 899px;
+    min-height: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFF;
+    border: solid 2px #CCCCCC;
+    border-radius: 10px;
+}
+
+.main-containersubpages {
+    width: 899px;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFF;
+    border: solid 2px #CCCCCC;
+    border-radius: 10px;
+}
+
+/*--------------------------header start---------------------------*/	
+
+#topheader {
+    height: 78px;
+    width: 890px;
+    background-color: #FFFFFF;
+    margin: 7px;
+}
+
+#topheader .headerLeft {
+    height: 80px;
+    width: 710px;
+    float: left;
+    padding: 2px 0 0 0px;
+}
+
+#topheader .headerLeft h1 {
+    width: 256px;
+    height: 59px;
+    float: left;
+}
+
+#topheader .headerLeft .logoleft {
+    width: 90px;
+    margin: 0px;
+    height: 75px;
+    margin-left: 2px;
+    float: left;
+}
+
+#topheader .headerLeft .logoright {
+    width: 90px;
+    margin: 0px;
+    height: 75px;
+    margin-left: 2px;
+    float: right;
+}
+
+#topheader .headerLeft .middle {
+    width: 500px;
+    height: 75px;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 7px;
+    float: left;
+    color: #330033;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#topheader .headerRight {
+    width: 170px;
+    float: right;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#topheader .headerRight ul {
+    list-style: none;
+}
+
+#topheader .headerRight ul li {
+    list-style: none;
+    float: left;
+}
+
+#topheader .headerRight ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#topheader .headerRight ul li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#headercontact {
+    width: 170px;
+    height: 30px;
+    float: right;
+}
+
+#headercontact p {
+    padding-top: 7px;
+    padding-left: 20px;
+    color: #330000;
+}
+/*------------------------------------------------------headerend-----------------------------------------------------*/
+
+h1 {
+    font-size: 2.6rem;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    color: mediumblue;
+    margin-top: 35px;
+}
+
+.maindiv {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images for website/img1.jpg");
+    transform: translate(0, 0);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 3px black;
+    animation: slider 80s infinite linear;
+}
+
+@keyframes slider {
+    0% { background-image: url("../images for website/img1.jpg"); }
+    13% { background-image: url("../images for website/img2.jpg"); }
+    26% { background-image: url("../images for website/img3.jpg"); }
+    40% { background-image: url("../images for website/img4.jpg"); }
+    50% { background-image: url("../images for website/img5.jpg"); }
+    60% { background-image: url("../images for website/img6.jpg"); }
+    70% { background-image: url("../images for website/img7.jpg"); }
+    80% { background-image: url("../images for website/img8.jpg"); }
+    90% { background-image: url("../images for website/img9.jpg"); }
+}
+
+/*-----------------------------Banner and Top Menu start--------------------------------------------*/	
+
+#banner {
+    height: 300px;
+    border: solid 2px #FFFFFF;
+    padding: 2px 0 0 0px;
+}
+
+#wrapper {
+    width: 895px;
+    height: 300px;
+}
+
+.topmenu {
+    background: mediumblue;
+    background-image: url(../images/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 899px;
+    float: left;
+    position: relative;
+    z-index: 1000;
+}
+
+.topmenu > ul {
+    height: 66px;
+    margin: 0;
+    margin-left: 54px;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.topmenu > ul > li {
+    background-image: url(../images/devider.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 66px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.topmenu > ul > li > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 66px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    height: 66px;
+    float: left;
+    padding-left: 12px;
+}
+
+.topmenu > ul > li > a span {
+    display: block;
+    height: 66px;
+    float: left;
+    padding-right: 35px;
+    cursor: pointer;
+}
+
+.topmenu > ul > li > a:hover {
+    background-image: url(../images/menu-left.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.topmenu > ul > li > a:hover span {
+    background-image: url(../images/menu-right.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.topmenu .submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 66px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: mediumblue;
+    z-index: 9999;
+    width: 220px;
+}
+
+.topmenu > ul > li.dropdown:hover .submenu {
+    display: block;
+}
+
+.topmenu .submenu li {
+    float: none;
+    height: auto;
+    padding: 0;
+    background: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.topmenu .submenu li a {
+    float: none;
+    display: block;
+    height: auto;
+    line-height: 1.4;
+    padding: 10px 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.topmenu .submenu li a span {
+    float: none;
+    display: inline;
+    padding-right: 0;
+    height: auto;
+}
+
+.topmenu .submenu li a:hover {
+    background: #003399;
+}
+
+/*-----------------------------Left Menu start--------------------------------------------*/	
+
+#contentLeft {
+    background: url(../images/leftbg.gif) repeat-y left top;
+    width: 243px;
+    height: 416px;
+    float: left;
+}
+
+#contentLeft .leftTop {
+    width: 227px;
+    background: url(../images/leftTopheadingbg.gif) repeat-x left top;
+    height: 39px;
+    color: #990000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 39px;
+    text-align: center;
+}
+
+#contentLeft ul {
+    list-style: none;
+}
+
+#contentLeft ul li {
+    list-style: none;
+}
+
+#contentLeft ul li a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    background: url(../images/arrowBullet.gif) no-repeat #f1f0f0 20px center;
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: 187px;
+    text-transform: uppercase;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 40px;
+}
+
+#contentLeft ul li a:hover {
+    background: url(../images/arrowBullet.gif) no-repeat #e7e6e6 20px center;
+    width: 187px;
+    padding-left: 40px;
+}
+
+#contentLeft table#top {
+    height: 260px;
+    margin-top: 10px;
+}
+
+#tbl1 {
+    background-color: #eee;
+    width: 224px;
+    height: 210px;
+    border: 0px dotted black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*-----------------------------Right Work Area start--------------------------------------------*/	
+
+#rightworkarea {
+    width: 645px;
+    height: 416px;
+    float: right;
+}
+
+#contents {
+    width: 645px;
+    height: 330px;
+}
+
+#frame {
+    width: 240px;
+    height: 315px;
+    margin-right: 3px;
+    float: left;
+    padding-top: 0px;
+}
+
+#rightworkarea .image {
+    width: 230px;
+    height: 300px;
+    margin: 2px;
+    float: left;
+    padding-top: 8px;
+}
+
+#rightworkarea .image #picture {
+    width: 220px;
+    height: 250px;
+    border: solid 2px brown;
+    padding: 3px;
+    background-color: #FFFFCC;
+}
+
+#rightworkarea .image p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #330033;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#rightworkarea .profile {
+    width: 645px;
+    height: 320px;
+    margin: 3px;
+}
+
+#rightworkarea .profile h2 {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #990000;
+}
+
+#rightworkarea .profile p {
+    padding-left: 5px;
+    padding-right: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #003300;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#welcome {
+    width: 640px;
+    height: 70px;
+    margin-top: 2px;
+    padding-top: 10px;
+}
+
+#welcome p.welcm {
+    font-size: 20px;
+    color: #990000;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 2px;
+}
+
+/*----------------------------Footer-start--------------------------------------------*/	
+#bottom {
+    height: auto;
+    width: 899px;
+    background-color: #000000;
+    float: left;
+    padding-bottom: 15px;
+}
+
+#bottom .bottommenu {
+    width: 899px;
+    height: auto;
+    text-align: center;
+}
+
+#bottom .bottommenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+#bottom .bottommenu ul li {
+    list-style: none;
+    margin: 5px 8px;
+    padding-top: 10px;
+    float: left;
+}
+
+.bottommenu li a {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#bottom .bottommenu ul li a:hover {
+    color: #CC0000;
+    text-decoration: underline;
+}
+
+.bottomfooter {
+    width: 899px;
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bottomfooter p {
+    color: #CCFFCC !important;
+    text-align: center;
+    font-size: 13px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#footnote {
+    width: 899px;
+    color: #990000;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bold;
+    clear: both;
+}
+
+/*-----------------------------notice box start-------------------*/
+
+.floating-notice {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    max-width: 320px;
+    font-family: Arial, sans-serif;
+}
+
+.floating-notice.secondary {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.notice-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.notice-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.notice-link:hover {
+    color: #e0e0e0;
+}
+
+/*-----------------------------Responsive--------------------------------------------*/
+
+@media (max-width: 899px) {
+    .main-container {
+        width: 98%;
+        height: auto;
+        float: left;
+        border: 0px;
+    }
+    #topheader {
+        width: 98%;
+        background-color: #FFFFFF;
+        margin: 1%;
+        height: auto;
+        overflow: hidden;
+    }
+    #topheader .headerRight {
+        width: 150px;
+        float: right;
+        margin-top: 5px;
+    }
+    #headercontact {
+        width: 170px;
+        height: 30px;
+        float: left;
+    }
+    #headercontact p {
+        padding-left: 4px;
+    }
+    #topheader .headerLeft {
+        height: 80px;
+        width: 100%;
+    }
+    h1 {
+        font-size: 4vw;
+        font-weight: 900;
+        line-height: 1.4;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        color: mediumblue;
+        margin-top: 35px;
+    }
+    .topmenu {
+        width: 100%;
+    }
+    .topmenu > ul {
+        margin-left: 6px;
+        padding: 0;
+        list-style: none;
+        height: auto;
+        overflow: hidden;
+    }
+    .topmenu > ul > li {
+        background-image: url(../images/devider.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        float: none;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+        border-bottom: solid #f0f000 1px;
+        height: auto;
+        line-height: 40px;
+    }
+    .topmenu > ul > li > a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-decoration: none;
+        display: block;
+        float: none;
+        padding-left: 0px;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+    }
+    .topmenu > ul > li > a span {
+        display: block;
+        height: 40px;
+        float: none;
+        padding-right: 35px;
+        cursor: pointer;
+    }
+    .topmenu .submenu {
+        position: static;
+        width: 100%;
+        display: none;
+        background: mediumblue;
+    }
+    .topmenu > ul > li.dropdown:hover .submenu {
+        display: block;
+    }
+    .topmenu .submenu li {
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    #contentLeft {
+        width: 100%;
+        height: auto;
+    }
+    #contentLeft .leftTop {
+        width: 100%;
+    }
+    #contentLeft ul li a {
+        width: 98%;
+        padding-left: 2%;
+    }
+    #contentLeft ul li a:hover {
+        width: 98%;
+        padding-left: 2%;
+    }
+    #welcome {
+        width: 100%;
+        height: auto;
+    }
+    #footnote {
+        width: 100%;
+        float: left;
+    }
+    #rightworkarea {
+        width: 100%;
+        height: auto;
+    }
+    #bottom {
+        width: 100%;
+        height: auto;
+    }
+    #bottom .bottommenu {
+        width: 100%;
+    }
+    .bottomfooter p {
+        float: left;
+    }
+    #contents {
+        width: 100%;
+        height: auto;
+    }
+    #rightworkarea .profile {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .floating-notice,
+    .floating-notice.secondary {
+        position: relative !important;
+        bottom: auto !important;
+        right: auto !important;
+        margin: 15px auto !important;
+        width: 90% !important;
+    }
+    .notice-close {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+    }
+}
+
+/* ===========================
+   STAFF TABLE DESIGN
+   =========================== */
+
+.table-page-block{
+    width: 100%;
+    text-align: center;
+    clear: both;
+    padding: 20px 0;
+}
+
+.staff-table-wrapper{
+    width: 90%;
+    margin: 0 auto 30px auto;
+}
+
+table.staff-table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #d6e3ea;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.staff-table th,
+table.staff-table td{
+    border: 1px solid #e1ebf0;
+    padding: 10px 12px;
+    vertical-align: middle;
+    color: #111111;
+}
+
+.staff-table .table-main-title th{
+    background: #f57c00 !important;
+    color: #ffffff !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    padding: 16px 10px !important;
+}
+table.staff-table thead tr.table-column-head th{
+    background-color: #cddfe7;
+    color: #111111;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-align: center;
+}
+
+table.staff-table tbody tr.section-row td{
+    background-color: #f57c00;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 10px;
+}
+
+table.staff-table tbody tr.data-row td{
+    background-color: #eaf3f7;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table.staff-table tbody tr.data-row:hover td{
+    background-color: #d9e8ef;
+}
+
+table.staff-table td.col-sno{
+    width: 12%;
+    text-align: center;
+}
+
+table.staff-table td.col-name{
+    width: 48%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+table.staff-table td.col-designation{
+    width: 40%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+@media screen and (max-width:768px){
+    .staff-table-wrapper{
+        width: 98%;
+        overflow-x: auto;
+    }
+    table.staff-table{
+        min-width: 700px;
+    }
+    table.staff-table thead tr.table-main-title th{
+        font-size: 18px;
+    }
+    table.staff-table thead tr.table-column-head th,
+    table.staff-table tbody tr.data-row td,
+    table.staff-table tbody tr.section-row td{
+        font-size: 14px;
+    }
+}
+
+/* ==========================
+   CONTACT PAGE DESIGN
+   ========================== */
+
+.contact-page{
+    width: 899px;
+    margin: 30px auto 60px auto;
+}
+
+.contact-card{
+    width: 100%;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    display: flex;
+    padding: 30px;
+}
+
+.contact-card-left{
+    width: 30%;
+    padding-right: 20px;
+}
+.contact-card-left img{
+    width: 100%;
+    max-height: 260px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.contact-card-right{
+    width: 65%;
+}
+.contact-card-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #002366;
+    margin-bottom: 10px;
+}
+.contact-card-text{
+    font-size: 13px;
+    color: #555555;
+    margin-bottom: 18px;
+}
+
+.contact-form{
+    width: 100%;
+}
+.contact-row{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.contact-field{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact-field label{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.contact-field input,
+.contact-field textarea{
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.contact-submit{
+    display: block;
+    width: 100%;
+    background: #f57c00;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact-submit:hover{
+    background: #e76b00;
+}
+
+.contact-bottom{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.contact-info{
+    width: 30%;
+}
+.contact-info-block{
+    margin-bottom: 16px;
+}
+.contact-info-block h3{
+    font-size: 14px;
+    font-weight: 700;
+    color: #f57c00;
+    margin-bottom: 4px;
+}
+.contact-info-block p{
+    font-size: 14px;
+    color: #333333;
+    text-indent: 40px;
+}
+
+.contact-map{
+    width: 70%;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    padding: 10px;
+}
+
+@media (max-width: 899px){
+    .contact-page{
+        width: 98%;
+        margin: 20px auto 40px auto;
+    }
+    .contact-card{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .contact-card-left,
+    .contact-card-right{
+        width: 100%;
+    }
+    .contact-row{
+        flex-direction: column;
+        gap: 0;
+    }
+    .contact-bottom{
+        flex-direction: column;
+    }
+    .contact-info,
+    .contact-map{
+        width: 100%;
+    }
+}
+
+/* ===========================
+   SMC MEMBERS TABLE DESIGN
+   =========================== */
+
+.smc-table-wrapper {
+    width: 98%;
+    margin: 20px auto;
+    overflow-x: auto;
+    background: #ffffff;
+    padding: 10px;
+}
+
+.smc-main-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+table.smc-custom-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    border: 1px solid #000000 !important;
+    background: #eaf3f7 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+table.smc-custom-table th,
+table.smc-custom-table td {
+    border: 1px solid #000000 !important;
+    padding: 10px 12px !important;
+    vertical-align: middle !important;
+    color: #000000 !important;
+    font-size: 13px !important;
+}
+
+/* Orange Title Row Style */
+table.smc-custom-table thead tr.smc-title-row th {
+    background: #f57c00 !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    padding: 12px 8px !important;
+}
+
+/* Column Headers Style (Dark Blue / Navy) */
+table.smc-custom-table thead tr.smc-header-row th {
+    background: #1F4E78 !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    padding: 10px 8px !important;
+}
+
+table.smc-custom-table tbody tr td {
+    background-color: #eaf3f7 !important;
+}
+
+table.smc-custom-table tbody tr:hover td {
+    background-color: #d2e4ed !important;
+}
+
+table.smc-custom-table td:nth-child(1),
+table.smc-custom-table td:nth-child(3),
+table.smc-custom-table td:nth-child(5),
+table.smc-custom-table td:nth-child(6),
+table.smc-custom-table td:nth-child(8) {
+    text-align: center !important;
+}
+/* ===========================
+   SCHOOL HISTORY PAGE DESIGN (Balanced Spacing & 1cm Text Inset)
+   =========================== */
+
+.history-container {
+    width: 900px;
+    max-width: 96%;
+    /* Generous top margin to create a clean, wide gap from the upper blue header */
+    margin: 80px auto 40px auto;
+    background-color: #ffffff;
+    position: relative;
+    box-sizing: border-box;
+    
+    /* Padding breakdown: 
+       - Top: 150px (to keep upper frame well away from the blue header)
+       - Left & Right: 155px (pushed text in by an extra 1 cm from both sides)
+       - Bottom: 260px (to completely protect text from bottom floral corners) */
+    padding: 150px 155px 260px 155px;
+    
+    /* Clean professional shadow */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Rigid Absolute Border Frame Wrapper */
+.history-border-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.history-border-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; 
+}
+
+/* Ensure text stays above the frame image and inside safe area */
+.history-content {
+    position: relative;
+    z-index: 2;
+}
+
+.history-content h2 {
+    font-family: 'Edwardian Script ITC', 'Brush Script MT', cursive, serif;
+    color: #000000;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    line-height: 1.25;
+}
+
+.history-content p {
+    font-family: 'Lucida Calligraphy', 'Lucida Handwriting', cursive, serif;
+    font-size: 15px;
+    line-height: 1.9;
+    color: #111111;
+    text-align: justify;
+    margin-bottom: 18px;
+}
+
+/* ===========================
+   MOBILE RESPONSIVE FIXES
+   =========================== */
+@media (max-width: 768px) {
+    .history-container {
+        width: 96%;
+        margin: 25px auto;
+        /* Balanced mobile padding with proper inset */
+        padding: 95px 45px 180px 45px;
+    }
+    
+    .history-content h2 {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    
+    .history-content p {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-bottom: 14px;
+    }
+}

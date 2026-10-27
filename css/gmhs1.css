@@ -1,0 +1,281 @@
+@charset "utf-8"; /* CSS Document */
+
+*{ margin:0px;
+padding:0px; }
+
+
+
+
+
+body{ font-family:Arial, Helvetica, sans-serif; font-size:12px; text-decoration:none; color: #000000; background:url(../images/WoodPanelling_TH.jpg) repeat left top; text-align:justify; }
+	 
+.main-container{ width:899px; height:1290px; margin-left:auto; margin-right:auto; background:#FFF; border:solid 2px #CCCCCC; border-radius:10px;  }
+.main-containersubpages{ width:899px; height:100%; margin-left:auto; margin-right:auto; background:#FFF; border:solid 2px #CCCCCC; border-radius:10px;  }
+
+/*--------------------------header start---------------------------*/	
+
+#topheader{ height:78px; width:890px; background-color:#FFFFFF; margin:7px;  }
+
+#topheader .headerLeft{ height:80px; width:710px; float:left; padding:2px 0 0 0px; }
+
+#topheader .headerLeft h1{ width:256px; height:59px; float:left;}
+
+#topheader .headerLeft .logoleft {width: 90px; margin:0px; height:75px; margin-left:2px; float:left;  }
+
+#topheader .headerLeft .logoright {width: 90px; margin:0px; height:75px; margin-left:2px; float:right;   }
+
+#topheader .headerLeft .middle {width: 500px;  height:75px; margin-left:10px; padding-left:10px; margin-top:7px; float:left; color:#330033; font-family:Arial, Helvetica, sans-serif; font-size:24px; text-transform:uppercase }
+ 
+#topheader .headerRight{width:170px; float:right; height:20px; margin-top:10px; }
+
+#topheader .headerRight ul li{ list-style:none; float:left;}
+
+#topheader .headerRight ul li a {font-family:Arial, Helvetica, sans-serif;
+#font-size:12px; color:#000; text-decoration:none; padding-left:2px;
+#padding-right:2px;}
+
+#topheader .headerRight ul li a:hover {color:#000; text-decoration:underline;}
+#headercontact { width:170px; height:30px; float:right;}
+#headercontact p{  padding-top:7px; padding-left:20px; color:#330000}
+
+/*------------------------------------------------------headerend-----------------------------------------------------*/ 
+h1{ font-size:2.6rem; font-weight: 900; line-height: 1.4; letter-spacing: 0.4rem; text-align: center; color:mediumblue; margin-top: 35px;  } 
+.maindiv{ width:100%; height:400px; background-image: url("../images for website/img1.jpg"); transform: translate(-0%,-0%);background-size: 100% 100%;box-shadow: 1px 2px 3px black; animation: slider 80s infinite linear; }
+@keyframes slider{0%:{background-image: url("../images for website/img1.jpg");}13%{background-image: url("../images for website/img2.jpg");}26%{background-image: url("../images for website/img3.jpg");} 40%{background-image: url("../images for website/img4.jpg");}50%{background-image: url("../images for website/img5.jpg");}60%{background-image: url("../images for website/img6.jpg");}70%{background-image: url("../images for website/img7.jpg");}80%{background-image: url("../images for website/img8.jpg");}90%{background-image: url("../images for website/img9.jpg");}};
+/*-----------------------------Banner and Top Menu start--------------------------------------------*/	
+
+#banner{ height:300px; border:solid 2px  #FFFFFF;  padding:2px 0 0 0px; }
+
+#wrapper { width: 895px; height:300px}
+
+/*............................Image changer..............
+
+#slideshow {
+    position: absolute;
+    height:100px;
+}
+
+#slideshow DIV {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    height: 100px;
+    background-color: #FFF;
+}
+
+#slideshow DIV.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+    z-index:9;
+}
+
+#slideshow DIV IMG {
+    border-style: none;
+	border-color: inherit;
+	border-width: 0;
+height: 298px;
+    	display: block;
+    	margin-bottom: 10px;
+	width: 895px;
+}
+#menu 
+{
+		list-style: none;
+}
+#menu li {
+	 margin: 0px 0px 0px 0px; padding: 0px; text-transform:none;  position: relative;font-size: 14px; float: left;
+}
+#menu a {
+	margin: 0px; padding: 10px 10px; color: rgb(255, 255, 255); font-size: 1.1em;  text-decoration: none; float: left;
+}
+#menu a:hover {
+	background: rgb(210, 41, 41); color: rgb(255, 255, 255);
+}
+............,,,,,,,,,,,................Image changer End...........,,,,,,,,,,,,,,,,...*/
+
+.topmenu {
+	background-image: url(../images/menu-bg.jpg);
+	background:mediumblue;
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 899px;
+	 float:left;
+}
+.topmenu ul {
+	height: 66px;
+	margin-left: 54px;
+	list-style-type: none;
+}
+.topmenu ul li {
+	background-image: url(../images/devider.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 66px;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.topmenu ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 66px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	height: 66px;
+	float: left;
+	padding-left: 12px;
+}
+.topmenu ul li a span {
+	display: block;
+	height: 66px;
+	float: left;
+	padding-right: 35px;
+	cursor: pointer;
+}
+.topmenu ul li a:hover {
+	background-image: url(../images/menu-left.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.topmenu ul li a:hover span {
+	background-image: url(../images/menu-right.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+/*------------------------------------------------------------Banner and Top Menu end-------------------------------------------------------------*/
+/*-----------------------------Left Menu start--------------------------------------------*/	
+
+/*#main-container #contentArea{width:899px; float:left; background:#FFF;} /*background:url(../images/leftbg.gif) repeat-y left top; */
+
+#contentLeft{ background:url(../images/leftbg.gif) repeat-y left top; width:243px; height:416px; float:left; } 
+
+#contentLeft .leftTop{width:227px; background:url(../images/leftTopheadingbg.gif) repeat-x left top;  height:39px; color:#990000; font-family:Arial, Helvetica, sans-serif; font-size:20px;  text-transform:uppercase; line-height:39px; text-align:center;}
+
+#contentLeft ul li{list-style:none;}
+
+#contentLeft ul li a{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-decoration:none; color:#000; background:url(../images/arrowBullet.gif) no-repeat #f1f0f0 20px center; border-bottom:1px solid #fff; display:block; width:187px; text-transform:uppercase; height:24px; line-height:24px; padding-left:40px;}
+
+#contentLeft ul li a:hover{ background:url(../images/arrowBullet.gif) no-repeat #e7e6e6  20px center; width:187px; padding-left:40px;}
+#contentLeft table#top{ height:260px; margin-top:10px;}
+#tbl1 {background-color: #eee;  width: 224px;  height: 210px;  border: 0px dotted black;  overflow-x: hidden;  overflow-y: scroll;}
+
+/*-----------------------------Right Work Area start--------------------------------------------*/	
+
+#rightworkarea { width:645px; height:416px; float:right; }
+#contents { width:645; height:330px; }
+#frame { width:240px; height:315px; margin-right:3px; float: left; padding-top:0px;}
+#rightworkarea .image { width:230px; height:300px; margin:2px; float: left; padding-top:8px ;}
+#rightworkarea .image #picture { width:220px; height:250px; border:solid 2px brown; padding:3px; 
+ background-color: #FFFFCC  }
+#rightworkarea .image p{ font-size:16px; font-weight:bold; color: #330033; text-align:center; padding-top:5px; } 
+
+#rightworkarea .profile { width:410; height:320px; margin:3px;  }
+#rightworkarea .profile h2{ padding-top:10px; padding-left:5px; padding-bottom:10px;  font-family:Georgia, "Times New Roman", Times, serif; color:#990000; }
+#rightworkarea .profile p{ padding-left:5px; padding-right:15px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color: #003300; font-size:14px; text-align:justify;  }
+#welcome { width:640px; height:70px; margin-top:2px; padding-top:10px;}
+#welcome p.welcm{ font-size:20px; color:#990000; font-weight:bold; text-align:left; padding-left:5px; padding-right:0px; padding-top:2px }
+/*#mpdid { width:640px; height:40px; margin-top:2px; padding-top:10px;}
+#mpdid p.mpdcls{ font-size:20px; color:#990000; font-weight:bold; text-align:left; padding-left:15px; padding-right:0px; padding-top:2px }*/
+/*-----------------------------Right Work Area start--------------------------------------------*/	
+
+
+/*----------------------------Footer-start--------------------------------------------*/	
+
+#bottom { height:100px; width:899px; background-color:#000000; float:left;  }
+
+#bottom .bottommenu { width:899px; height:50px; }
+
+#bottom .bottommenu ul li{ list-style:none; margin:5px; padding-top:10px; float:left;}
+#bottom .bottommenu ul li a:hover { color: #CC0000 }
+
+.bottomfotter { width:899px; height:45px; }
+
+.bottomfooter p{ color:#CCFFCC; text-align:center; font-size:14px }
+
+.bottommenu li a {  padding-right:18px; padding-left:20px; font-family:Geneva, Arial, Helvetica, sans-serif; font-size:15px; color:#fff;}
+
+#footnote { width:899px; color: #990000; text-align:center; padding-top:3px; font-weight:bold; }
+
+@media (max-width: 899px) {
+	
+	.main-container{ width:98%; height:auto; float:left; border:0px;}
+	#topheader{  width:98%; background-color:#FFFFFF; margin:1%;  }
+	#topheader .headerRight{width:150px; float:right;  margin-top:5px; }
+	#headercontact { width:170px; height:30px; float:left;}
+#headercontact p{ padding-left:4px; }
+#topheader .headerLeft{ height:80px; width:100%; }
+h1{ font-size:4vw; font-weight: 900; line-height: 1.4; letter-spacing: 0.2rem; text-align: center; color:mediumblue; margin-top: 35px;  } 
+
+
+.topmenu {
+
+	width: 100%;
+}
+.topmenu ul {
+	margin-left:6px;
+	list-style-type: none;
+}
+.topmenu ul li {
+	background-image: url(../images/devider.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+	padding-right:0px;
+	padding-left:0px; width:100%; border-bottom: solid #f0f000 1px;height:40px; line-height:40px;
+}
+.topmenu ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding-left:0px; width:100%; height:40px; line-height:40px;
+}
+.topmenu ul li a span {
+	display: block;
+height:40px;
+	float: left;
+	padding-right: 35px;
+	cursor: pointer;
+}
+.topmenu ul li a:hover {
+	background-image: url(../images/menu-left.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.topmenu ul li a:hover span {
+	background-image: url(../images/menu-right.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#contentLeft{width:100%; height:auto; } 
+#contentLeft .leftTop{width:100%;}
+#contentLeft ul li a{ width:98%; padding-left:2%;}
+#contentLeft ul li a:hover{ width:98%; padding-left:2%;}
+#welcome { width:100%; height:auto;}
+#footnote{width:100%; float:left;}
+#rightworkarea{width:100%; height:auto;}
+#bottom{width:100%; height:auto;}
+#bottom .bottommenu{width:100%;}
+.bottomfooter p{float:left;}
+#contents{height:auto;}
+#rightworkarea .profile{height:auto;}
+
+}
+
+
+
+
+
+
+
+
